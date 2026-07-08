@@ -1,4 +1,4 @@
-# eleventa® puente de conexión POS
+# eleventa puente de conexión POS
 
 <p align="center">
   <img src="./images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta y varios Verificadores de Precios conectados">
@@ -253,6 +253,8 @@ Cuando abre la aplicación, si `eleventa®` ya generó un respaldo más reciente
 
 También se realizará una nueva restauración si la base usada para la consulta ya no está disponible o deja de ser válida.
 
+Si no existen respaldos disponibles, será necesario generar al menos el primer respaldo desde la funcionalidad correspondiente del POS `eleventa®` para que la aplicación pueda consultar la información.
+
 ### Restauración manual del respaldo
 
 Puede ejecutar la restauración manualmente usando el botón `Restaurar último respaldo`.
@@ -297,6 +299,7 @@ Ajuste la `Carpeta de instalación` en estos casos:
 - Mantenga abierta la aplicación mientras use `Verificador de Precios`.
 - Si la conexión falla, revise la `Carpeta de instalación`, el `Usuario` y la `Contraseña`.
 - Verifique que `eleventa®` ya haya generado al menos un respaldo.
+- Si no hay respaldos disponibles, genere al menos un respaldo directamente desde el POS `eleventa®`.
 - Si `eleventa®` genera un respaldo más reciente, la aplicación lo restaurará automáticamente al abrir o al comprobar la conexión.
 
 ## Emparejar con el software Verificador de Precios usando el Asistente
@@ -423,6 +426,7 @@ Si la aplicación no funciona como esperaba, revise estos casos comunes:
 - Verifique que la `Carpeta de instalación` corresponda a la ubicación real de `eleventa®`.
 - Confirme que exista la carpeta `respaldos` dentro de la instalación.
 - Revise que `eleventa®` ya haya generado al menos un respaldo disponible.
+- Si no hay respaldos disponibles, genere al menos un respaldo desde la funcionalidad del POS `eleventa®`.
 - Confirme que el `Usuario` y la `Contraseña` de Firebird sean correctos.
 - Verifique que la instalación de `eleventa®` esté completa.
 
