@@ -1,4 +1,4 @@
-# eleventa puente de conexión POS
+# eleventa® puente de conexión POS
 
 <p align="center">
   <img src="./images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta y varios Verificadores de Precios conectados">
