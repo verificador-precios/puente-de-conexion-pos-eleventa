@@ -1,7 +1,7 @@
 # eleventa puente de conexión POS
 
 <p align="center">
-  <img src="./images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta y varios Verificadores de Precios conectados">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783542709/assets/proyecto-verificador-precios/bridge-libp2p/images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta y varios Verificadores de Precios conectados">
 </p>
 
 ## Introducción
@@ -77,7 +77,7 @@ Para que la aplicación funcione correctamente, es necesario aceptar el permiso 
 Nota: Para instalar la aplicación en `Windows`, **no se requieren permisos de administrador**.
 
 <p align="center">
-  <img src="./images/windows-11-installer-initial.png" width="450" alt="Ejemplo del instalador en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png" width="450" alt="Ejemplo del instalador en Windows">
 </p>
 
 ### Si Windows bloquea el instalador o la aplicación
@@ -94,7 +94,7 @@ En algunos equipos, `Windows` puede mostrar advertencias de seguridad al abrir e
 6. Haga clic en `Aceptar`.
 
 <p align="center">
-  <img src="./images/win-11-propiedades-instalador.png" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-propiedades-instalador.png" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
 </p>
 
 #### Método 2: Omitir la advertencia de Windows SmartScreen
@@ -104,7 +104,7 @@ En algunos equipos, `Windows` puede mostrar advertencias de seguridad al abrir e
 3. Después, haga clic en `Ejecutar de todas formas`.
 
 <p align="center">
-  <img src="./images/win-10-smartscreen-1.png" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
 </p>
 
 ### Permitir conexiones entrantes en el firewall de Windows
@@ -118,7 +118,7 @@ Si aparece esta ventana:
 3. Si Windows muestra opciones de red, permita el acceso según la política de su entorno.
 
 <p align="center">
-  <img src="./images/win-11-firewall-permiso-2.png" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
 </p>
 
 Si desea confirmar después que el permiso quedó aplicado correctamente:
@@ -130,7 +130,7 @@ Si desea confirmar después que el permiso quedó aplicado correctamente:
 5. Verifique que la aplicación aparezca como permitida.
 
 <p align="center">
-  <img src="./images/win-11-firewall-permiso-1.png" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
 </p>
 
 Si el permiso fue rechazado por error:
@@ -143,7 +143,7 @@ Si el permiso fue rechazado por error:
 6. Guarde los cambios y vuelva a abrir la aplicación.
 
 <p align="center">
-  <img src="./images/win-10-firewall-2.png" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-firewall-2.png" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
 </p>
 
 ## Actualización de la aplicación
@@ -307,7 +307,7 @@ Ajuste la `Carpeta de instalación` en estos casos:
 Una vez que la aplicación esté abierta y conectada, podrá generar la `URL de acceso` para `Verificador de Precios`.
 
 <p align="center">
-  <img src="./images/emparejar-asistente-red-lan.png" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543013/assets/proyecto-verificador-precios/bridge-libp2p/images/emparejar-asistente-red-lan.png" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
 </p>
 
 ### Paso 1: Verificar la URL para conexión del servidor
@@ -325,7 +325,7 @@ Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 3. Se abrirá una ventana para capturar la `URL del Verificador de Precios`.
 
 <p align="center">
-  <img src="./images/client-asistente-emparejamiento-frontend.png" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470698/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-url-assistant-content.png" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
 </p>
 
 ### Paso 3: Capturar correctamente la URL del Verificador de Precios
@@ -346,7 +346,7 @@ Ejemplo:
 6. Mediante la URL generada ya podrá acceder al **software Verificador de Precios emparejado a su punto de venta**.
 
 <p align="center">
-  <img src="./images/client-asistente-de-acceso-botones.png" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
 ### Paso 5: Permitir el acceso a la red local en el navegador
@@ -356,7 +356,7 @@ Para una mejor compatibilidad, se recomienda usar el sitio web de `Verificador d
 Si abre el sitio web de `Verificador de Precios` en `Google Chrome`, es posible que el navegador solicite permiso para acceder a la `red local`. Acepte este permiso para que el sitio web pueda comunicarse correctamente con la `URL para conexión del servidor`.
 
 <p align="center">
-  <img src="./images/chrome-local-network-access-permission.png" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
 </p>
 
 Referencia:
