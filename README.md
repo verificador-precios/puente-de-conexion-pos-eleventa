@@ -5,7 +5,10 @@
   &nbsp;&nbsp;&nbsp;
   <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063599/assets/proyecto-verificador-precios/bridge-libp2p/images/plus-icon.svg" alt="Símbolo más" height="32" align="middle" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1767472883/assets/proyecto-verificador-precios/eleventa/eleventa-logo.png" style="background-color: white" alt="Logo de eleventa" height="100" align="middle" />
+  <img
+    src="https://res.cloudinary.com/xadani-mexico/image/upload/c_pad,w_300,h_100,b_white/v1767472883/assets/proyecto-verificador-precios/eleventa/eleventa-logo.png"
+    alt="Logo de Eleventa" height="100" align="middle"
+  />
 </p>
 
 ## Introducción
