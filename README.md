@@ -55,9 +55,9 @@ Esta versión de la aplicación es compatible con:
 | --- | --- |
 | Windows | Windows 10 / 11 |
 
-## Compatibilidad con punto de venta `eleventa®`
+## Compatibilidad con punto de venta eleventa®
 
-- `eleventa® monoCaja v5.50`
+- `eleventa® MonoCaja y MultiCaja (servidor) 4.x y 5.x`
 
 ## Descarga segura
 
@@ -278,7 +278,7 @@ Ahí se muestra:
 - El `Nombre de archivo` del respaldo restaurado
 - La `Fecha de creación` del respaldo
 - La fecha y la hora exactas en las que se realizó la restauración
-- Un enlace `Ver archivo` para abrir la carpeta del respaldo restaurado
+- Un enlace `Abrir carpeta contenedora` para abrir la carpeta del respaldo restaurado
 
 <p align="center">
   <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470694/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-db-config-form.png?v=4" width="520" alt="Ejemplo del formulario de conexión de eleventa puente de conexión POS">
