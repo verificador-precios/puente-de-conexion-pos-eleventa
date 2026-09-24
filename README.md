@@ -156,7 +156,7 @@ Si el permiso fue rechazado por error:
 ## Actualización de la aplicación
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057215/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-update-install-content.png?v=4" width="420" alt="Ejemplo del aviso de actualización lista en el puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1790290535/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-update-install-content.png?v=5" width="420" alt="Ejemplo del aviso de actualización lista en el puente de conexión POS">
 </p>
 
 ### Actualización automática
