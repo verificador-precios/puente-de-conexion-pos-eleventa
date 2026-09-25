@@ -281,7 +281,7 @@ Ahí se muestra:
 - Un enlace `Abrir carpeta contenedora` para abrir la carpeta del respaldo restaurado
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470694/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-db-config-form.png?v=4" width="520" alt="Ejemplo del formulario de conexión de eleventa puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470694/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-db-config-form.png?v=5" width="520" alt="Ejemplo del formulario de conexión de eleventa puente de conexión POS">
 </p>
 
 ### Cómo ajustar la configuración
