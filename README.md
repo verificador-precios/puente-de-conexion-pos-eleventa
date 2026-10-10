@@ -1,15 +1,6 @@
 # eleventa puente de conexión POS
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063241/assets/proyecto-verificador-precios/bridge-libp2p/images/icon.svg" alt="Logo del proyecto Puente de conexión POS" height="100" align="middle" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063599/assets/proyecto-verificador-precios/bridge-libp2p/images/plus-icon.svg" alt="Símbolo más" height="32" align="middle" />
-  &nbsp;&nbsp;&nbsp;
-  <img
-    src="https://res.cloudinary.com/xadani-mexico/image/upload/c_pad,w_300,h_100,b_white/v1767472883/assets/proyecto-verificador-precios/eleventa/eleventa-logo.png"
-    alt="Logo de Eleventa" height="100" align="middle"
-  />
-</p>
+<img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611418/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-banner-top.png" alt="Banner principal de la integración con eleventa®">
 
 ## Introducción
 
