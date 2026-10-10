@@ -16,7 +16,7 @@
 `eleventa puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `eleventa®`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470697/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home.png?v=4" width="720" alt="Vista general del panel principal de eleventa puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=4" width="720" alt="Vista general del panel principal de eleventa puente de conexión POS">
 </p>
 
 ## Guía rápida de configuración
