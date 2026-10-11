@@ -9,7 +9,7 @@ Instale esta aplicación en el equipo donde está instalado eleventa®.
 El puente consulta la información del punto de venta sin interrumpir su operación.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=4" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=5" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
 </p>
 
 ## Antes de comenzar
@@ -37,7 +37,7 @@ Complete estos pasos para instalar y conectar el puente.
 > No se requieren permisos de administrador para instalar la aplicación.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=4" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=5" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
 </p>
 
 ### 2. Permitir el acceso en Windows
@@ -49,7 +49,7 @@ Este permiso permite que Verificador de Precios se comunique con el puente desde
 **Resultado esperado:** la aplicación puede mostrar la **URL para conexión del servidor** cuando termine de conectarse con eleventa®.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=4" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=5" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
 </p>
 
 ### 3. Confirmar la conexión con eleventa®
@@ -63,7 +63,7 @@ Al abrirse, el puente busca automáticamente la instalación predeterminada de e
 **Resultado esperado:** aparece el estado **Conectado al punto de venta** y la **URL para conexión del servidor**.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=4" width="520" alt="URL para conexión del servidor mostrada en la aplicación">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=5" width="520" alt="URL para conexión del servidor mostrada en la aplicación">
 </p>
 
 ### 4. Emparejar con el Verificador de Precios
@@ -83,7 +83,7 @@ Después, use el **QR de apertura automática** para un emparejamiento rápido o
 3. Revise la vista previa y seleccione **Guardar y usar**.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=4" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=5" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
 **Resultado esperado:** el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
@@ -117,21 +117,21 @@ En el Verificador de Precios, puede usar cualquiera de estos métodos de emparej
 - **Usar escáner 2D:** permite leer el código con un escáner compatible.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-5ad70b33bf.jpg?v=4" width="720" alt="Opciones de conexión rápida en Verificador de Precios">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-5ad70b33bf.jpg?v=5" width="720" alt="Opciones de conexión rápida en Verificador de Precios">
 </p>
 
 
 Si Google Chrome solicita permiso para acceder a la red local, selecciónelo como permitido. Este permiso permite que el sitio web se comunique con el puente instalado en el equipo.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png?v=4" width="540" alt="Permiso de acceso a la red local solicitado por Google Chrome">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png?v=5" width="540" alt="Permiso de acceso a la red local solicitado por Google Chrome">
 </p>
 
 ## Solución de problemas
 
 | Situación | Qué hacer |
 | --- | --- |
-| Windows bloquea el instalador | En la advertencia, seleccione **Más información** y luego **Ejecutar de todas formas**. También puede hacer clic derecho en el archivo, abrir **Propiedades**, seleccionar **Desbloquear** y aplicar los cambios.<br><br><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=4" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
+| Windows bloquea el instalador | En la advertencia, seleccione **Más información** y luego **Ejecutar de todas formas**. También puede hacer clic derecho en el archivo, abrir **Propiedades**, seleccionar **Desbloquear** y aplicar los cambios.<br><br><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=5" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
 | No hay conectividad con el punto de venta | Verifique los siguientes puntos:<ol><li>La <strong>Carpeta de instalación</strong> corresponde a eleventa®.</li><li>Existe un respaldo disponible.</li><li>Las credenciales de acceso son correctas.</li><li>Genere un respaldo desde eleventa® y vuelva a comprobar la conexión.</li></ol> |
 | El código QR no empareja Verificador de Precios con el punto de venta | Verifique los siguientes puntos:<ol><li>La URL ingresada en el <strong>Asistente de URL de acceso</strong> es correcta.</li><li>El puente está conectado correctamente con el punto de venta.</li><li>Ambos equipos están en la misma red local.</li><li>El navegador tiene permiso para acceder a la red local.</li></ol> |
 
@@ -145,7 +145,7 @@ Si Google Chrome solicita permiso para acceder a la red local, selecciónelo com
 5. Guarde los cambios y vuelva a abrir la aplicación.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=4" width="520" alt="Configuración del firewall de Windows para permitir eleventa puente de conexión POS">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=5" width="520" alt="Configuración del firewall de Windows para permitir eleventa puente de conexión POS">
 </p>
 
 ## Configuración avanzada
