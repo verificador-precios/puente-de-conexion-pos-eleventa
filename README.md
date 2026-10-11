@@ -2,470 +2,214 @@
 
 <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611418/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-banner-top.png" alt="Banner principal de la integración con eleventa®">
 
-## Introducción
+Conecte Verificador de Precios con su punto de venta eleventa® desde la red local.
 
-`eleventa puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `eleventa®`.
+Instale esta aplicación en el equipo donde está instalado eleventa®.
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=4" width="720" alt="Vista general del panel principal de eleventa puente de conexión POS">
-</p>
-
-## Guía rápida de configuración
-
-Si solo necesita una vista rápida del proceso, siga estos pasos:
-
-1. Instale `eleventa puente de conexión POS` y permita las `conexiones entrantes` cuando `Windows` lo solicite.
-2. Abra la aplicación y revise la [conexión al punto de venta](#conexión-al-punto-de-venta).
-3. Confirme la carpeta de instalación de `eleventa®`.
-4. La aplicación usará automáticamente el respaldo más reciente generado por `eleventa®` para consultar la información.
-5. Compruebe que la aplicación logre conectarse correctamente al punto de venta.
-6. Verifique que la aplicación ya muestre la `URL para conexión del servidor`.
-7. Abra el [Asistente de URL de acceso](#paso-2-abrir-el-asistente-de-url-de-acceso) o use el [QR de conexión](#emparejar-con-el-software-verificador-de-precios-usando-el-qr) para [emparejar Verificador de Precios](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente).
-8. [Acepte el permiso de acceso a la red local](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
-9. Confirme que `Verificador de Precios` complete la conexión correctamente.
-
-Puede consultar el detalle completo en estas secciones:
-
-- [Instalación](#instalación)
-- [Conexión al punto de venta](#conexión-al-punto-de-venta)
-- [Emparejar con el software Verificador de Precios usando el Asistente](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente)
-
-## Compatibilidad con sistemas operativos
-
-La aplicación es compatible con el siguiente sistema operativo:
-
-| Sistema operativo | Compatibilidad |
-| --- | --- |
-| Windows | ✅ |
-
-### Requisitos mínimos del sistema operativo
-
-Esta versión de la aplicación es compatible con:
-
-| Plataforma | Recomendado |
-| --- | --- |
-| Windows | Windows 10 / 11 |
-
-## Compatibilidad con punto de venta eleventa®
-
-- `eleventa® MonoCaja y MultiCaja (servidor) 4.x y 5.x`
-
-## Descarga segura
-
-Antes de instalar la aplicación, tenga en cuenta lo siguiente:
-
-- `eleventa puente de conexión POS` es software legítimo y distribuido de forma oficial a través de [nuestro repositorio de GitHub](https://github.com/verificador-precios).
-- La aplicación se construye y empaqueta siguiendo prácticas orientadas a la seguridad y a la integridad del software distribuido.
-- Descargue el instalador únicamente desde el sitio oficial o desde el repositorio oficial del proyecto.
-- No instale archivos descargados desde enlaces de terceros, servicios no oficiales o sitios no verificados.
-
-## Instalación
-
-Importante:
-
-Para que la aplicación funcione correctamente, es necesario aceptar el permiso de `conexiones entrantes` cuando `Windows` lo solicite.
-
-### Instalación en Windows
-
-1. Descargue [la última versión del instalador](https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases/latest).
-2. Abra el archivo descargado.
-3. Siga los pasos del asistente de instalación.
-4. Al finalizar, abra `eleventa puente de conexión POS`.
-
-Nota: Para instalar la aplicación en `Windows`, **no se requieren permisos de administrador**.
+El puente consulta la información del punto de venta sin interrumpir su operación.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=4" width="450" alt="Ejemplo del instalador en Windows">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=4" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
 </p>
 
-### Si Windows bloquea el instalador o la aplicación
+## Antes de comenzar
 
-En algunos equipos, `Windows` puede mostrar advertencias de seguridad al abrir el instalador o la aplicación. Si esto ocurre, puede usar cualquiera de los siguientes métodos.
+Confirme lo siguiente antes de instalar:
 
-#### Método 1: Desbloquear desde Propiedades
+- Usa Windows 10 o Windows 11.
+- Tiene instalado eleventa® MonoCaja o el servidor de eleventa® MultiCaja, versión 4.x o 5.x.
+- Instalará el puente en el mismo equipo que eleventa®.
+- eleventa® ya generó al menos un respaldo.
+- El equipo del puente y el dispositivo que usará Verificador de Precios están conectados a la misma red local.
 
-1. Haga clic derecho sobre el archivo descargado.
-2. Seleccione `Propiedades`.
-3. En la pestaña `General`, busque la sección `Seguridad`.
-4. Marque la casilla `Desbloquear`.
-5. Haga clic en `Aplicar`.
-6. Haga clic en `Aceptar`.
+## Instalación rápida
+
+Complete estos pasos para instalar y conectar el puente.
+
+### 1. Descargar e instalar
+
+1. Descargue la [versión más reciente](https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases).
+2. Abra el instalador y siga sus indicaciones.
+3. Al finalizar, abra **eleventa puente de conexión POS**.
+
+**Resultado esperado:** se abre la ventana principal de la aplicación.
+
+> No se requieren permisos de administrador para instalar la aplicación.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-propiedades-instalador.png?v=4" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=4" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
 </p>
 
-#### Método 2: Omitir la advertencia de Windows SmartScreen
+### 2. Permitir el acceso en Windows
 
-1. Haga doble clic en el instalador o en la aplicación.
-2. Si aparece la pantalla `Windows protegió su PC`, haga clic en `Más información`.
-3. Después, haga clic en `Ejecutar de todas formas`.
+Cuando Windows indique que **eleventa puente de conexión POS** desea comunicarse en la red, seleccione **Permitir acceso**.
+
+Este permiso permite que Verificador de Precios se comunique con el puente desde la red local.
+
+**Resultado esperado:** la aplicación puede mostrar la **URL para conexión del servidor** cuando termine de conectarse con eleventa®.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=4" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=4" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
 </p>
 
-### Permitir conexiones entrantes en el firewall de Windows
+### 3. Confirmar la conexión con eleventa®
 
-Después de instalar y abrir la aplicación, `Windows` puede mostrar una alerta del firewall indicando que `eleventa puente de conexión POS` desea comunicarse en la red. Este permiso es necesario para que la aplicación pueda recibir conexiones locales y funcionar correctamente.
+Al abrirse, el puente busca automáticamente la instalación predeterminada de eleventa® y el respaldo más reciente disponible.
 
-Si aparece esta ventana:
+1. Espere a que termine la comprobación inicial.
+2. Si la aplicación solicita la carpeta de instalación, confirme que corresponde a la ubicación real de eleventa®.
+3. Si no hay respaldos disponibles, genere uno desde eleventa® y vuelva a comprobar la conexión.
 
-1. Verifique que la aplicación corresponda a `eleventa puente de conexión POS`.
-2. Haga clic en `Permitir acceso`.
-3. Si Windows muestra opciones de red, permita el acceso según la política de su entorno.
+**Resultado esperado:** aparece el estado **Conectado al punto de venta** y la **URL para conexión del servidor**.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=4" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=4" width="520" alt="URL para conexión del servidor mostrada en la aplicación">
 </p>
 
-Si desea confirmar después que el permiso quedó aplicado correctamente:
+### 4. Emparejar con el Verificador de Precios
 
-1. Abra `Seguridad de Windows`.
-2. Entre a `Firewall y protección de red`.
-3. Haga clic en `Permitir una aplicación a través del firewall`.
-4. Busque `eleventa puente de conexión POS` en la lista.
-5. Verifique que la aplicación aparezca como permitida.
+Antes de continuar, configure la URL de Verificador de Precios en el **Asistente de URL de acceso**. Esta configuración es necesaria para generar los códigos QR de emparejamiento.
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=4" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
-</p>
+Después, use el **QR de apertura automática** para un emparejamiento rápido o el **QR de emparejamiento manual** cuando necesite completar el proceso manualmente.
 
-Si el permiso fue rechazado por error:
+**Resultado esperado:** Verificador de Precios se abre y queda emparejado con el punto de venta.
 
-1. Abra `Seguridad de Windows`.
-2. Entre a `Firewall y protección de red`.
-3. Haga clic en `Permitir una aplicación a través del firewall`.
-4. Busque `eleventa puente de conexión POS`.
-5. Marque la aplicación para permitir el acceso.
-6. Guarde los cambios y vuelva a abrir la aplicación.
+## Emparejar Verificador de Precios
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-firewall-2.png?v=4" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
-</p>
+### Configurar la URL de Verificador de Precios
 
-## Actualización de la aplicación
-
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1790290535/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-update-install-content.png?v=5" width="420" alt="Ejemplo del aviso de actualización lista en el puente de conexión POS">
-</p>
-
-### Actualización automática
-
-La búsqueda de actualizaciones se ejecuta automáticamente en las versiones empaquetadas e instaladas desde los canales oficiales de publicación.
-
-Flujo esperado:
-
-1. Abra la aplicación.
-2. Aproximadamente `15 segundos` después de abrirla, la aplicación buscará una versión nueva en segundo plano.
-3. Si existe una actualización disponible, la aplicación comenzará la descarga automáticamente.
-4. Cuando la descarga finalice, la aplicación mostrará un aviso indicando que la nueva versión quedó lista para instalarse.
-5. Al cerrar la aplicación, se iniciará la instalación de la actualización descargada.
-
-Si aparece el diálogo `Actualización lista`, puede usar `Actualizar ahora` para cerrar la aplicación e iniciar el proceso de actualización en ese momento.
-
-### Plataformas activas con la actualización automática
-
-Actualmente, la actualización automática está activa solo en `Windows`.
-
-Si necesita actualizar manualmente, descargue e instale la versión más reciente publicada para `eleventa puente de conexión POS`.
-
-## Primer uso
-
-Al abrir la aplicación por primera vez, se intentará establecer la conexión con el punto de venta usando la configuración predeterminada de `eleventa®`.
-
-La aplicación usará automáticamente el respaldo más reciente generado por `eleventa®` para realizar la lectura de datos.
-
-Cuando la comunicación con el punto de venta se establezca correctamente, la aplicación mostrará una confirmación.
-
-## Configuración de la aplicación
-
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781228538/assets/proyecto-verificador-precios/bridge-libp2p/cajafacil/cajafacil-app-config.png?v=4" width="720" alt="Ejemplo de la pantalla de configuración de la aplicación en eleventa puente de conexión POS">
-</p>
-
-### Cómo abrir la configuración
-
-1. Abra `eleventa puente de conexión POS`.
-2. Ubique el botón `Configuración de la app`.
-3. Haga clic para abrir el panel de configuración.
-
-### Opciones disponibles
-
-#### Comportamiento
-
-En esta sección puede ajustar cómo responde la aplicación al iniciar y al cerrarse.
-
-- `Lanzar aplicación al iniciar`:
-  Permite que la aplicación se abra automáticamente al iniciar sesión en el sistema operativo.
-- `Confirmar salida de la aplicación`:
-  Muestra una confirmación antes de cerrar completamente la aplicación, para evitar detener por accidente la conexión con el punto de venta y los servicios locales.
-
-#### Apariencia y accesibilidad
-
-En esta sección puede adaptar la apariencia visual de la aplicación.
-
-- `Tema visual`:
-  Permite cambiar el estilo visual de la interfaz.
-- `Reducir movimiento`:
-  Disminuye animaciones y transiciones para una experiencia visual más estable.
-
-#### Funciones auxiliares
-
-En esta sección puede activar herramientas adicionales de apoyo.
-
-- `Habilitar regeneración de QR`:
-  Permite mostrar y regenerar el `QR de conexión` cuando cambie la `URL para conexión del servidor`.
-
-### Recomendaciones de uso
-
-- Use `Lanzar aplicación al iniciar` si necesita que el servicio esté disponible automáticamente al encender el equipo.
-- Mantenga habilitada `Confirmar salida de la aplicación` para evitar cierres accidentales.
-- `Reducir movimiento` puede ser útil si el equipo no tiene altas prestaciones para mostrar animaciones.
-- Si comparte la conexión con otros dispositivos, conviene mantener habilitada la regeneración del `QR de conexión`.
-
-## Conexión al punto de venta
-
-La aplicación está preparada para conectarse al punto de venta `eleventa®`.
-
-### Valores predeterminados usados por la aplicación
-
-La aplicación usa estos valores predeterminados para acceder a la base de datos:
-
-- `Usuario`: `SYSDBA`
-- `Contraseña`: `masterkey`
-- `Carpeta de instalación`: `C:\Program Files (x86)\AbarrotesPDV`
-
-### Cómo se realiza la lectura de datos
-
-La aplicación se conecta al POS `eleventa®` de la siguiente manera:
-
-1. Identifica el respaldo más reciente generado por `eleventa®`.
-2. Lo restaura, lo valida y lo utiliza como base de datos para realizar las consultas de lectura.
-
-Este flujo permite consultar la información del punto de venta sin interrumpir su funcionamiento.
-
-### Restauración automática del respaldo más reciente
-
-Cuando abre la aplicación, si `eleventa®` ya generó un respaldo más reciente, la aplicación lo restaura automáticamente antes de consultar la información.
-
-También se realizará una nueva restauración si la base usada para la consulta ya no está disponible o deja de ser válida.
-
-Si no existen respaldos disponibles, será necesario generar al menos el primer respaldo desde la funcionalidad correspondiente del POS `eleventa®` para que la aplicación pueda consultar la información.
-
-### Restauración manual del respaldo
-
-Puede ejecutar la restauración manualmente usando el botón `Restaurar último respaldo`.
-
-Este botón restaura nuevamente el respaldo más reciente disponible y después valida la conexión otra vez.
-
-### Información del respaldo en uso
-
-Cuando la conexión se completa correctamente, la aplicación puede mostrar la sección `Información del respaldo en uso`.
-
-Ahí se muestra:
-
-- El tiempo transcurrido desde la `Última restauración`
-- El `Nombre de archivo` del respaldo restaurado
-- La `Fecha de creación` del respaldo
-- La fecha y la hora exactas en las que se realizó la restauración
-- Un enlace `Abrir carpeta contenedora` para abrir la carpeta del respaldo restaurado
-
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470694/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-db-config-form.png?v=5" width="520" alt="Ejemplo del formulario de conexión de eleventa puente de conexión POS">
-</p>
-
-### Cómo ajustar la configuración
-
-1. Abra `eleventa puente de conexión POS`.
-2. Revise que la `Carpeta de instalación` apunte a la carpeta donde está instalado `eleventa®`.
-3. Confirme que el `Usuario` sea `SYSDBA`.
-4. Confirme que la `Contraseña` sea `masterkey`, salvo que su instalación use otra.
-5. Compruebe la conexión.
-
-### Cuándo ajustar la carpeta de instalación
-
-Ajuste la `Carpeta de instalación` en estos casos:
-
-- Si `eleventa®` fue instalado en una ubicación distinta a `C:\Program Files (x86)\AbarrotesPDV`
-- Si la aplicación no logra encontrar los archivos necesarios de la instalación
-- Si la aplicación no logra identificar la carpeta de respaldos
-- Si hubo una reinstalación o migración del punto de venta a otro equipo
-
-### Recomendaciones
-
-- Mantenga abierta la aplicación mientras use `Verificador de Precios`.
-- Si la conexión falla, revise la `Carpeta de instalación`, el `Usuario` y la `Contraseña`.
-- Verifique que `eleventa®` ya haya generado al menos un respaldo.
-- Si no hay respaldos disponibles, genere al menos un respaldo directamente desde el POS `eleventa®`.
-- Si `eleventa®` genera un respaldo más reciente, la aplicación lo restaurará automáticamente al abrir o al comprobar la conexión.
-
-## Emparejar con el software Verificador de Precios usando el Asistente
-
-Una vez que la aplicación esté abierta y conectada, podrá generar la `URL de acceso` para `Verificador de Precios`.
-
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543013/assets/proyecto-verificador-precios/bridge-libp2p/images/emparejar-asistente-red-lan.png?v=4" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
-</p>
-
-### Paso 1: Verificar la URL para conexión del servidor
-
-Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
-
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=4" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
-</p>
-
-### Paso 2: Abrir el Asistente de URL de acceso
-
-1. Dentro de la aplicación, ubique la sección de acceso.
-2. Haga clic en `Asistente de URL de acceso`.
-3. Se abrirá una ventana para capturar la `URL del Verificador de Precios`.
-
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470698/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-url-assistant-content.png?v=4" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
-</p>
-
-### Paso 3: Capturar correctamente la URL del Verificador de Precios
-
-En el campo `URL del Verificador de Precios`, capture únicamente la dirección base del sistema web.
-
-Ejemplo:
-
-- `https://eleventa.verificador-precios-prueba.com.mx/`
-
-### Paso 4: Guardar y usar la URL de acceso
-
-1. Revise la `Vista previa de la URL de acceso`.
-2. Si la vista previa es correcta, haga clic en `Guardar y usar`.
-3. Una vez registrada la URL, se habilitarán los botones `Copiar` y `Abrir`.
-4. Use `Copiar` para copiar la URL al portapapeles.
-5. Use `Abrir` para abrir la URL en el navegador predeterminado.
-6. Mediante la URL generada ya podrá acceder al **software Verificador de Precios emparejado a su punto de venta**.
+1. En el puente, seleccione **Asistente de URL de acceso**.
+2. Escriba únicamente la URL base de su Verificador de Precios. Por ejemplo: `https://ejemplo.verificador-precios.com.mx/`.
+3. Revise la vista previa y seleccione **Guardar y usar**.
 
 <p align="center">
   <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=4" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
-### Paso 5: Permitir el acceso a la red local en el navegador
+**Resultado esperado:** el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
 
-Para una mejor compatibilidad, se recomienda usar el sitio web de `Verificador de Precios` en [Google Chrome](https://www.google.com/intl/es-419/chrome/).
+### QR de apertura automática
 
-Si abre el sitio web de `Verificador de Precios` en `Google Chrome`, es posible que el navegador solicite permiso para acceder a la `red local`. Acepte este permiso para que el sitio web pueda comunicarse correctamente con la `URL para conexión del servidor`.
+Use esta opción para abrir Verificador de Precios y completar el emparejamiento automáticamente en el dispositivo donde se utilizará.
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png?v=4" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
-</p>
+1. En el puente, ubique el **QR de apertura automática**.
+2. Escanee el código desde el dispositivo donde usará Verificador de Precios.
+3. Al escanearlo, el navegador abrirá Verificador de Precios ya emparejado con el punto de venta.
 
-Referencia:
-[Private Network Access update: Introducing permission prompts](https://developer.chrome.com/blog/local-network-access?hl=es-419)
+#### Escanear el QR desde cada dispositivo
 
-## Emparejar con el software Verificador de Precios usando el QR
+- En **iPhone** o **iPad**, use **Cámara** o **Escanear código** desde el Centro de control.
+- En **Android**, use la cámara del teléfono o Google Lens.
+- En **Windows**, use la aplicación **Cámara** con una webcam para escanear el código QR.
 
-También puede emparejar `Verificador de Precios` usando el `QR de conexión` que genera la aplicación.
+### QR de emparejamiento manual
 
-### Paso 1: Verificar que el QR esté disponible
+Use esta opción cuando necesite emparejar Verificador de Precios manualmente.
 
-1. Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
-2. Ubique la sección `QR de conexión`.
-3. Espere a que la aplicación genere el código QR correspondiente.
+1. En el puente, ubique el **QR de emparejamiento manual** y escanéelo o expórtelo como imagen.
+2. En Verificador de Precios, abra **Conexión rápida**.
+3. Seleccione el método de lectura que corresponda a su dispositivo y complete el emparejamiento.
 
-### Paso 2: Exportar el QR
+En el Verificador de Precios, puede usar cualquiera de estos métodos de emparejamiento:
 
-1. Dentro de la sección `QR de conexión`, haga clic en `Exportar QR`.
-2. Guarde la imagen en una ubicación fácil de encontrar.
-
-### Paso 3: Abrir la conexión rápida en Verificador de Precios
-
-1. Abra el software `Verificador de Precios`.
-2. Vaya a la sección `Conexión rápida`.
-3. Elija una de las opciones disponibles para leer el QR.
+- **Usar cámara:** escanea el código QR con la cámara del dispositivo.
+- **Adjuntar archivo:** permite seleccionar una imagen del código QR.
+- **Usar escáner 2D:** permite leer el código con un escáner compatible.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-5ad70b33bf.jpg?v=4" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-5ad70b33bf.jpg?v=4" width="720" alt="Opciones de conexión rápida en Verificador de Precios">
 </p>
 
-### Paso 4: Emparejar usando el QR
 
-Puede usar cualquiera de estas opciones:
-
-- `Usar cámara`:
-  Permite escanear el QR directamente con la cámara del dispositivo.
-- `Adjuntar archivo`:
-  Permite seleccionar la imagen exportada del QR desde el equipo.
-- `Usar escáner 2D`:
-  Permite leer el QR con un escáner compatible.
-
-### Paso 5: Confirmar la conexión
-
-1. Verifique que `Verificador de Precios` cargue correctamente la `URL para conexión del servidor`.
-2. Revise que la URL corresponda al equipo correcto.
-3. Si el QR se importó o se escaneó correctamente, la conexión se establecerá de manera automática.
-4. Espere la confirmación de emparejamiento.
-
-Si el sitio web no completa la conexión en `Google Chrome`, revise si el navegador mostró el permiso de acceso a la `red local` y acéptelo. Consulte también el [Paso 5: Permitir el acceso a la red local en el navegador](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
+Si Google Chrome solicita permiso para acceder a la red local, selecciónelo como permitido. Este permiso permite que el sitio web se comunique con el puente instalado en el equipo.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-0a1d0a7c80.jpg?v=4" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png?v=4" width="540" alt="Permiso de acceso a la red local solicitado por Google Chrome">
 </p>
-
-### Recomendaciones
-
-- Si no se reconoce el QR, exporte nuevamente la imagen y repita el proceso.
-- Si usa `Adjuntar archivo`, asegúrese de seleccionar el QR más reciente.
-- Si la conexión no se completa, confirme que la aplicación siga abierta y que la `URL para conexión del servidor` continúe disponible.
 
 ## Solución de problemas
 
-Si la aplicación no funciona como esperaba, revise estos casos comunes:
+| Situación | Qué hacer |
+| --- | --- |
+| Windows bloquea el instalador | En la advertencia, seleccione **Más información** y luego **Ejecutar de todas formas**. También puede hacer clic derecho en el archivo, abrir **Propiedades**, seleccionar **Desbloquear** y aplicar los cambios.<br><br><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=4" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
+| No hay conectividad con el punto de venta | Verifique los siguientes puntos:<ol><li>La <strong>Carpeta de instalación</strong> corresponde a eleventa®.</li><li>Existe un respaldo disponible.</li><li>Las credenciales de acceso son correctas.</li><li>Genere un respaldo desde eleventa® y vuelva a comprobar la conexión.</li></ol> |
+| El código QR no empareja Verificador de Precios con el punto de venta | Verifique los siguientes puntos:<ol><li>La URL ingresada en el <strong>Asistente de URL de acceso</strong> es correcta.</li><li>El puente está conectado correctamente con el punto de venta.</li><li>Ambos equipos están en la misma red local.</li><li>El navegador tiene permiso para acceder a la red local.</li></ol> |
 
-### La aplicación no conecta al punto de venta
 
-- Verifique que la `Carpeta de instalación` corresponda a la ubicación real de `eleventa®`.
-- Confirme que exista la carpeta `respaldos` dentro de la instalación.
-- Revise que `eleventa®` ya haya generado al menos un respaldo disponible.
-- Si no hay respaldos disponibles, genere al menos un respaldo desde la funcionalidad del POS `eleventa®`.
-- Confirme que el `Usuario` y la `Contraseña` de Firebird sean correctos.
-- Verifique que la instalación de `eleventa®` esté completa.
+### Permitir la aplicación después de rechazar el aviso de Windows
 
-### No aparece la información del respaldo
+1. Abra **Seguridad de Windows**.
+2. Entre a **Firewall y protección de red**.
+3. Seleccione **Permitir una aplicación a través del firewall**.
+4. Busque **eleventa puente de conexión POS** y permita el acceso.
+5. Guarde los cambios y vuelva a abrir la aplicación.
 
-- Compruebe que la conexión ya se haya completado correctamente.
-- Verifique que se haya restaurado un respaldo válido.
-- Si `eleventa®` generó un respaldo más reciente, vuelva a comprobar la conexión.
+<p align="center">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=4" width="520" alt="Configuración del firewall de Windows para permitir eleventa puente de conexión POS">
+</p>
 
-### No aparece la URL para conexión del servidor
+## Configuración avanzada
 
-- Confirme que la aplicación siga abierta.
-- Revise que la conexión al punto de venta se haya completado correctamente.
-- Si hubo cambios recientes en la red o en la configuración, cierre y vuelva a abrir la aplicación.
-- Verifique que el firewall haya permitido las `conexiones entrantes`.
+Abra **Configuración de la app** para modificar las opciones siguientes.
 
-### El Verificador de Precios no se empareja
+### Conexión con eleventa®
 
-- Revise que la `URL para conexión del servidor` corresponda al equipo correcto.
-- Si usa el asistente, confirme que la `URL del Verificador de Precios` esté bien escrita.
-- Si usa QR, vuelva a exportar la imagen e inténtelo nuevamente.
-- Confirme que la aplicación de escritorio siga abierta al momento de emparejar.
+La aplicación usa de forma predeterminada estos datos:
 
-### El QR no se reconoce
+| Opción | Valor predeterminado |
+| --- | --- |
+| Usuario | `SYSDBA` |
+| Contraseña | `masterkey` |
+| Carpeta de instalación: MonoCaja | `C:\Program Files (x86)\AbarrotesPDV` |
+| Carpeta de instalación: MultiCaja | `C:\Program Files (x86)\AbarrotesMultiCaja` |
 
-- Genere nuevamente el QR desde la aplicación.
-- Si usa `Adjuntar archivo`, asegúrese de seleccionar la imagen correcta.
-- Si usa cámara o escáner, procure que el código QR esté nítido y completamente visible.
+Cambie la **Carpeta de instalación** si eleventa® está instalado en una ubicación distinta, si la aplicación no encuentra sus archivos o si no identifica la carpeta de respaldos.
+
+> La aplicación obtiene automáticamente las credenciales de acceso de eleventa®.
+
+### Respaldos
+
+Para no interrumpir el funcionamiento del POS eleventa®, el puente consulta una copia restaurada del respaldo más reciente de eleventa®.
+
+- Cuando exista un respaldo nuevo, la aplicación lo restaurará automáticamente al abrirse o al comprobar la conexión.
+- Use **Restaurar último respaldo** para ejecutar este proceso manualmente.
+- La sección **Información del respaldo en uso** muestra el archivo, la fecha de creación y la última restauración.
+
+<p align="center">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470694/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-db-config-form.png?v=5" width="520" alt="Configuración de conexión y respaldo de eleventa puente de conexión POS">
+</p>
+
+Si no existen respaldos, genere al menos uno desde eleventa® antes de volver a comprobar la conexión.
+
+### Comportamiento de la aplicación
+
+- **Lanzar aplicación al iniciar:** abre el puente al iniciar sesión en Windows.
+- **Confirmar salida de la aplicación:** solicita confirmación antes de cerrar por completo el puente.
+- **Recuperar conexión:** intenta recuperar la conexión a la base de datos cuando la aplicación inicia sin que esté disponible o cuando se pierde inesperadamente durante el uso.
+- **Tema visual:** cambia la apariencia de la aplicación.
+- **Reducir movimiento:** disminuye animaciones y transiciones.
+- **Habilitar regeneración de QR:** permite mostrar y regenerar el código QR cuando cambia la URL para conexión del servidor.
+
+Se recomienda mantener habilitada la confirmación de salida para evitar cerrar accidentalmente el puente mientras Verificador de Precios está en uso.
+
+## Actualizaciones
+
+En las versiones instaladas desde los canales oficiales, la aplicación busca actualizaciones automáticamente al iniciarse.
+
+1. Abra la aplicación.
+2. Espere aproximadamente 15 segundos.
+3. Si existe una actualización, se descargará en segundo plano.
+4. Cuando aparezca el aviso **Actualización lista**, seleccione **Actualizar ahora** o cierre la aplicación para iniciar la instalación.
+
+> También puede descargar e instalar manualmente la [versión más reciente](https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases).
 
 ## Desinstalación
 
-### Desinstalación en Windows
+1. Abra **Configuración** de Windows.
+2. Entre a **Aplicaciones**.
+3. Busque **eleventa puente de conexión POS**.
+4. Seleccione **Desinstalar** y siga el asistente.
 
-Para desinstalar la aplicación en `Windows`:
+## Aviso de marcas registradas
 
-1. Abra `Configuración`.
-2. Entre a `Aplicaciones`.
-3. Busque `eleventa puente de conexión POS`.
-4. Haga clic en `Desinstalar`.
-5. Siga los pasos del asistente.
-
-## Disclaimer
-
-- `eleventa®` y todos sus logotipos son marcas registradas de **eleventa.com**
+eleventa® y sus logotipos son marcas registradas de eleventa.com.
