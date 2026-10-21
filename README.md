@@ -8,6 +8,8 @@ Instale esta aplicación en el equipo donde está instalado eleventa®.
 
 El puente consulta la información del punto de venta sin interrumpir su operación.
 
+[⬇️ Descargar última versión](https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases/latest)
+
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=7" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
 </p>
