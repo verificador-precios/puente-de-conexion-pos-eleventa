@@ -61,11 +61,11 @@ Al abrirse, el sistema busca automáticamente la instalación predeterminada de 
 2. Si la aplicación solicita la carpeta de instalación, confirme que corresponde a la ubicación real de eleventa®.
 3. Si no hay respaldos disponibles, genere uno desde eleventa® y vuelva a comprobar la conexión.
 
-> Resultado esperado: aparece el estado **Conectado al punto de venta** y la **URL para conexión del servidor**.
-
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=7" width="520" alt="URL para conexión del servidor mostrada en la aplicación">
 </p>
+
+> Resultado esperado: aparece el estado **Conectado al punto de venta** y la **URL para conexión del servidor**.
 
 ## Emparejar Verificador de Precios con su POS
 
@@ -86,7 +86,7 @@ Al abrirse, el sistema busca automáticamente la instalación predeterminada de 
     <img src="https://res.cloudinary.com/verificador-precios/image/upload/v1792700738/screenshots-bridge/eleventa/eleventa-url-assistant-content.png?v=7" width="600" alt="Diagrama de conexión local entre eleventa®, el sistema y Verificador de Precios">
 </p>
 
-> Resultado esperado: el sistema registra y usa la URL de su suscripción.
+> Resultado esperado: el sistema registra y usa la URL proporcionada de su suscripción.
 
 Después, use alguno de estos métodos para abrir el Verificador de Precios emparejado con su POS:
 
@@ -95,9 +95,10 @@ Después, use alguno de estos métodos para abrir el Verificador de Precios empa
 - [QR de emparejamiento manual](#qr-de-emparejamiento-manual) cuando necesite completar el proceso manualmente.
 
 ### Usar botón «Abrir» o «Copiar»
-Botón `Abrir`: abre en el navegador del equipo actual el Verificador de Precios
+
+- Botón `Abrir`: abre en el navegador del equipo actual el Verificador de Precios
 con la URL del servidor incluida para conectarse.
-Botón `Copiar`: copia al portapaleles esa URL de acceso para pegarla y abrirla
+- Botón `Copiar`: copia al portapaleles esa URL de acceso para pegarla y abrirla
 en el navegador de otro dispositivo.
 > Resultado: El navegador abrirá el Verificador ya emparejado.
 
