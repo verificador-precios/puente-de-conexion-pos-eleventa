@@ -72,9 +72,15 @@ Al abrirse, el puente busca automáticamente la instalación predeterminada de e
 
 Antes de continuar, configure la URL de Verificador de Precios en el **Asistente de URL de acceso**. Esta configuración es necesaria para generar los códigos QR de emparejamiento.
 
-Después, use el **QR de apertura automática** para un emparejamiento rápido o el **QR de emparejamiento manual** cuando necesite completar el proceso manualmente.
+<p align="center">
+    <img src="https://res.cloudinary.com/verificador-precios/image/upload/v1792700738/screenshots-bridge/eleventa/eleventa-url-assistant-content.png?v=7" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
+</p>
 
-**Resultado esperado:** Verificador de Precios se abre y queda emparejado con el punto de venta.
+
+Después, use alguno de estos metodos para aperturar el Verificador de precios emperejado: 
+- [Usar botón «Abrir» o «Copiar»](#usar-boton-abrir-o-copiar) cuando necesite abrir la aplicación en el equipo actual
+- [QR de apertura automática](#qr-de-apertura-automática) para un emparejamiento rápido en telefonos o tablets
+- [QR de emparejamiento manual](#qr-de-emparejamiento-manual) cuando necesite completar el proceso manualmente.
 
 ## Emparejar Verificador de Precios
 
@@ -90,6 +96,13 @@ Después, use el **QR de apertura automática** para un emparejamiento rápido o
 
 **Resultado esperado:** el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
 
+### Usar boton «Abrir» o «Copiar»
+Botón `Abrir`: abre en el navegador del equipo actual el Verificador de Precios
+con la URL del servidor incluida para conectarse.
+Botón `Copiar`: copia al portapaleles esa URL de acceso para pegarla y abrirla
+en el navegador de otro dispositivo.
+> Resultado: El navegador abrirá el Verificador ya emparejado.
+
 ### QR de apertura automática
 
 Use esta opción para abrir Verificador de Precios y completar el emparejamiento automáticamente en el dispositivo donde se utilizará.
@@ -98,11 +111,15 @@ Use esta opción para abrir Verificador de Precios y completar el emparejamiento
 2. Escanee el código desde el dispositivo donde usará Verificador de Precios.
 3. Al escanearlo, el navegador abrirá Verificador de Precios ya emparejado con el punto de venta.
 
+> Resultado: El navegador abrirá el Verificador ya emparejado.
+
 #### Escanear el QR desde cada dispositivo
 
 - En **iPhone** o **iPad**, use **Cámara** o **Escanear código** desde el Centro de control.
 - En **Android**, use la cámara del teléfono o Google Lens.
 - En **Windows**, use la aplicación **Cámara** con una webcam para escanear el código QR.
+
+> Resultado: El navegador abrirá el Verificador ya emparejado.
 
 ### QR de emparejamiento manual
 
@@ -122,6 +139,7 @@ En el Verificador de Precios, puede usar cualquiera de estos métodos de emparej
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-5ad70b33bf.jpg?v=7" width="720" alt="Opciones de conexión rápida en Verificador de Precios">
 </p>
 
+> Resultado: El navegador abrirá el Verificador ya emparejado.
 
 Si Google Chrome solicita permiso para acceder a la red local, selecciónelo como permitido. Este permiso permite que el sitio web se comunique con el puente instalado en el equipo.
 
