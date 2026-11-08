@@ -133,10 +133,6 @@ En el Verificador de Precios, puede usar cualquiera de estos métodos de emparej
 - **Adjuntar archivo:** permite seleccionar una imagen del código QR.
 - **Usar escáner 2D:** permite leer el código con un escáner compatible.
 
-<p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783574765/assets/proyecto-verificador-precios/screenshots/direct-pos-database/eleventa-dc-verificador-precios-prueba-com-mx-config-data-source-5ad70b33bf.jpg?v=7" width="720" alt="Opciones de conexión rápida en Verificador de Precios">
-</p>
-
 > Resultado: El navegador abrirá el Verificador ya emparejado.
 
 Si Google Chrome solicita permiso para acceder a la red local, concédalo. Este permiso permite que el sitio web se comunique con el sistema instalado en el equipo.
