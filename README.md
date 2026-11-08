@@ -77,7 +77,7 @@ Antes de continuar, configure la URL de Verificador de Precios en el **Asistente
 </p>
 
 
-Después, use alguno de estos metodos para aperturar el Verificador de precios emperejado: 
+Después, use alguno de estos metodos para abrir el Verificador de precios emperejado: 
 - [Usar botón «Abrir» o «Copiar»](#usar-boton-abrir-o-copiar) cuando necesite abrir la aplicación en el equipo actual
 - [QR de apertura automática](#qr-de-apertura-automática) para un emparejamiento rápido en telefonos o tablets
 - [QR de emparejamiento manual](#qr-de-emparejamiento-manual) cuando necesite completar el proceso manualmente.
