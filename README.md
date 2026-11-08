@@ -8,7 +8,9 @@ Instale esta aplicación en el equipo donde está instalado eleventa®.
 
 El puente consulta la información del punto de venta sin interrumpir su operación.
 
-[⬇️ Descargar última versión](https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases/latest)
+<h3 align="center">
+    <a href="https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases/latest">⬇️ Descargar última versión</a>
+</h3>
 
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791611099/assets/proyecto-verificador-precios/bridge-libp2p/images/eleventa-arquitectura-lan.png?v=7" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
@@ -24,6 +26,9 @@ Confirme lo siguiente antes de instalar:
 - eleventa® ya generó al menos un respaldo.
 - El equipo del puente y el dispositivo que usará Verificador de Precios están conectados a la misma red local.
 
+> [!TIP]
+> Se recomienda [configurar una dirección IP fija](https://www.trendnet.com/langsp/press/resource-library/how-to-set-static-ip-address) en el equipo donde instalará el puente.
+
 ## Instalación rápida
 
 Complete estos pasos para instalar y conectar el puente.
@@ -34,9 +39,7 @@ Complete estos pasos para instalar y conectar el puente.
 2. Abra el instalador y siga sus indicaciones.
 3. Al finalizar, abra **eleventa puente de conexión POS**.
 
-**Resultado esperado:** se abre la ventana principal de la aplicación.
-
-> No se requieren permisos de administrador para instalar la aplicación.
+> Resultado esperado: se abre la ventana principal de la aplicación.
 
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=7" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
@@ -48,7 +51,7 @@ Cuando Windows indique que **eleventa puente de conexión POS** desea comunicars
 
 Este permiso permite que Verificador de Precios se comunique con el puente desde la red local.
 
-**Resultado esperado:** la aplicación puede mostrar la **URL para conexión del servidor** cuando termine de conectarse con eleventa®.
+> Resultado esperado: la aplicación puede mostrar la **URL para conexión del servidor** cuando termine de conectarse con eleventa®.
 
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=7" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
@@ -62,7 +65,7 @@ Al abrirse, el puente busca automáticamente la instalación predeterminada de e
 2. Si la aplicación solicita la carpeta de instalación, confirme que corresponde a la ubicación real de eleventa®.
 3. Si no hay respaldos disponibles, genere uno desde eleventa® y vuelva a comprobar la conexión.
 
-**Resultado esperado:** aparece el estado **Conectado al punto de venta** y la **URL para conexión del servidor**.
+> Resultado esperado: aparece el estado **Conectado al punto de venta** y la **URL para conexión del servidor**.
 
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=7" width="520" alt="URL para conexión del servidor mostrada en la aplicación">
@@ -95,7 +98,7 @@ Después, use alguno de estos métodos para abrir Verificador de Precios emparej
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=7" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
-**Resultado esperado:** el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
+> Resultado esperado: el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
 
 ### Usar botón «Abrir» o «Copiar»
 Botón `Abrir`: abre en el navegador del equipo actual el Verificador de Precios
