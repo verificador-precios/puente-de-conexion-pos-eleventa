@@ -205,6 +205,7 @@ En las versiones instaladas desde los canales oficiales, la aplicación busca ac
 3. Si existe una actualización, se descargará en segundo plano.
 4. Cuando aparezca el aviso **Actualización lista**, seleccione **Actualizar ahora** o cierre la aplicación para iniciar la instalación.
 
+> [!NOTE]
 > También puede descargar e instalar manualmente la [versión más reciente](https://github.com/verificador-precios/puente-de-conexion-pos-eleventa/releases).
 
 ## Desinstalación
