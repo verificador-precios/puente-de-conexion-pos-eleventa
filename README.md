@@ -39,8 +39,6 @@ Complete estos pasos para instalar y conectar el sistema.
 2. Abra el instalador y siga sus indicaciones.
 3. Al finalizar, abra **eleventa puente de conexión POS**.
 
-> Resultado esperado: se abre la ventana principal de la aplicación.
-
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=7" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
 </p>
@@ -50,8 +48,6 @@ Complete estos pasos para instalar y conectar el sistema.
 Cuando Windows indique que **eleventa puente de conexión POS** desea comunicarse en la red, seleccione **Permitir acceso**.
 
 Este permiso permite que Verificador de Precios se comunique con el sistema desde la red local.
-
-> Resultado esperado: la aplicación puede mostrar la **URL para conexión del servidor** cuando termine de conectarse con eleventa®.
 
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=7" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
@@ -83,7 +79,7 @@ Al abrirse, el sistema busca automáticamente la instalación predeterminada de 
 </p>
 
 
-2. Ingrese la URL de su software Verificador de Precios. y pulse en `Guardar`
+2. Ingrese la URL de su software Verificador de Precios y pulse en `Guardar`
 - ejemplo: `https://ejemplo.verificador-precios.com.mx/`.
 
 <p align="center">
