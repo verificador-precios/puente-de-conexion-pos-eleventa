@@ -77,9 +77,10 @@ Antes de continuar, configure la URL de Verificador de Precios en el **Asistente
 </p>
 
 
-Después, use alguno de estos metodos para abrir el Verificador de precios emparejado: 
-- [Usar botón «Abrir» o «Copiar»](#usar-boton-abrir-o-copiar) cuando necesite abrir la aplicación en el equipo actual
-- [QR de apertura automática](#qr-de-apertura-automática) para un emparejamiento rápido en telefonos o tablets
+Después, use alguno de estos métodos para abrir Verificador de Precios emparejado:
+
+- [Usar botón «Abrir» o «Copiar»](#usar-botón-abrir-o-copiar) cuando necesite abrir la aplicación en el equipo actual.
+- [QR de apertura automática](#qr-de-apertura-automática) para un emparejamiento rápido en teléfonos o tabletas.
 - [QR de emparejamiento manual](#qr-de-emparejamiento-manual) cuando necesite completar el proceso manualmente.
 
 ## Emparejar Verificador de Precios
@@ -91,12 +92,12 @@ Después, use alguno de estos metodos para abrir el Verificador de precios empar
 3. Revise la vista previa y seleccione **Guardar y usar**.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=7" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=7" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
 **Resultado esperado:** el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
 
-### Usar boton «Abrir» o «Copiar»
+### Usar botón «Abrir» o «Copiar»
 Botón `Abrir`: abre en el navegador del equipo actual el Verificador de Precios
 con la URL del servidor incluida para conectarse.
 Botón `Copiar`: copia al portapaleles esa URL de acceso para pegarla y abrirla
@@ -151,22 +152,12 @@ Si Google Chrome solicita permiso para acceder a la red local, selecciónelo com
 
 | Situación | Qué hacer |
 | --- | --- |
-| Windows bloquea el instalador | En la advertencia, seleccione **Más información** y luego **Ejecutar de todas formas**. También puede hacer clic derecho en el archivo, abrir **Propiedades**, seleccionar **Desbloquear** y aplicar los cambios.<br><br><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=7" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
+| Windows bloquea el instalador | En la advertencia, seleccione **Más información** >  **Ejecutar de todas formas**. <br> También puede hacer clic derecho en el archivo, seleccionar **Propiedades** > **Desbloquear** para ejecutar.<br><br><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=7" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
 | No hay conectividad con el punto de venta | Verifique los siguientes puntos:<ol><li>La <strong>Carpeta de instalación</strong> corresponde a eleventa®.</li><li>Existe un respaldo disponible.</li><li>Las credenciales de acceso son correctas.</li><li>Genere un respaldo desde eleventa® y vuelva a comprobar la conexión.</li></ol> |
 | El código QR no empareja Verificador de Precios con el punto de venta | Verifique los siguientes puntos:<ol><li>La URL ingresada en el <strong>Asistente de URL de acceso</strong> es correcta.</li><li>El puente está conectado correctamente con el punto de venta.</li><li>Ambos equipos están en la misma red local.</li><li>El navegador tiene permiso para acceder a la red local.</li></ol> |
-
-
-### Permitir la aplicación después de rechazar el aviso de Windows
-
-1. Abra **Seguridad de Windows**.
-2. Entre a **Firewall y protección de red**.
-3. Seleccione **Permitir una aplicación a través del firewall**.
-4. Busque **eleventa puente de conexión POS** y permita el acceso.
-5. Guarde los cambios y vuelva a abrir la aplicación.
-
-<p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=7" width="520" alt="Configuración del firewall de Windows para permitir eleventa puente de conexión POS">
-</p>
+| Verificador de Precios está emparejado, pero las búsquedas no muestran resultados | Confirme en su POS que el código de barras del producto sea exactamente igual al que está escaneando. |
+| Se perdió la conexión con Verificador de Precios después de emparejarlo | Establezca una dirección IP fija en el servidor de conexión y vuelva a emparejar Verificador de Precios. |
+| Rechacé la solicitud de Windows para permitir el acceso de la aplicación a la red | <ol><li>Abra <strong>Seguridad de Windows</strong>.</li><li>Entre a <strong>Firewall y protección de red</strong>.</li><li>Seleccione <strong>Permitir una aplicación a través del firewall</strong>.</li><li>Busque <strong>eleventa puente de conexión POS</strong> y permita el acceso.</li><li>Guarde los cambios y vuelva a abrir la aplicación.</li></ol><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=7" width="520" alt="Configuración del firewall de Windows para permitir eleventa puente de conexión POS"> |
 
 ## Configuración avanzada
 
