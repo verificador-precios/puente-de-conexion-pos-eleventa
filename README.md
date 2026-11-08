@@ -27,7 +27,7 @@ Confirme lo siguiente antes de instalar:
 - El equipo del puente y el dispositivo que usará Verificador de Precios están conectados a la misma red local.
 
 > [!TIP]
-> Se recomienda [configurar una dirección IP fija](https://www.trendnet.com/langsp/press/resource-library/how-to-set-static-ip-address) en el equipo donde instalará el puente.
+> Se recomienda <a href="https://www.trendnet.com/langsp/press/resource-library/how-to-set-static-ip-address" target="_blank" rel="noopener noreferrer">configurar una dirección IP fija</a> en el equipo donde instalará el puente.
 
 ## Instalación rápida
 
@@ -71,34 +71,32 @@ Al abrirse, el puente busca automáticamente la instalación predeterminada de e
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-server-connection-url.png?v=7" width="520" alt="URL para conexión del servidor mostrada en la aplicación">
 </p>
 
-### 4. Emparejar con el Verificador de Precios
-
-Antes de continuar, configure la URL de Verificador de Precios en el **Asistente de URL de acceso**. Esta configuración es necesaria para generar los códigos QR de emparejamiento.
-
-<p align="center">
-    <img src="https://res.cloudinary.com/verificador-precios/image/upload/v1792700738/screenshots-bridge/eleventa/eleventa-url-assistant-content.png?v=7" width="720" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
-</p>
-
-
-Después, use alguno de estos métodos para abrir Verificador de Precios emparejado:
-
-- [Usar botón «Abrir» o «Copiar»](#usar-botón-abrir-o-copiar) cuando necesite abrir la aplicación en el equipo actual.
-- [QR de apertura automática](#qr-de-apertura-automática) para un emparejamiento rápido en teléfonos o tabletas.
-- [QR de emparejamiento manual](#qr-de-emparejamiento-manual) cuando necesite completar el proceso manualmente.
-
 ## Emparejar Verificador de Precios
 
 ### Configurar la URL de Verificador de Precios
 
-1. En el puente, seleccione **Asistente de URL de acceso**.
-2. Escriba únicamente la URL base de su Verificador de Precios. Por ejemplo: `https://ejemplo.verificador-precios.com.mx/`.
-3. Revise la vista previa y seleccione **Guardar y usar**.
+
+1. Pulse en `Asistente de URL de acceso` > `Configurar URL  de acceso` 
 
 <p align="center">
     <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783470696/assets/proyecto-verificador-precios/bridge-libp2p/eleventa/eleventa-home-access-assistant.png?v=7" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
-> Resultado esperado: el puente muestra los códigos QR que puede usar para emparejar Verificador de Precios.
+
+2. Ingrese la URL de su software Verificador de Precios. y pulse en `Guardar`
+- ejemplo: `https://ejemplo.verificador-precios.com.mx/`.
+
+<p align="center">
+    <img src="https://res.cloudinary.com/verificador-precios/image/upload/v1792700738/screenshots-bridge/eleventa/eleventa-url-assistant-content.png?v=7" width="600" alt="Diagrama de conexión local entre eleventa®, el puente y Verificador de Precios">
+</p>
+
+> Resultado esperado: el sistema registra y usa la URL de su suscripción.
+
+Después, use alguno de estos métodos para abrir el Verificador de Precios emparejado con su POS:
+
+- [Usar botón «Abrir» o «Copiar»](#usar-botón-abrir-o-copiar) cuando necesite abrir la aplicación en el equipo actual.
+- [QR de apertura automática](#qr-de-apertura-automática) para un emparejamiento rápido en teléfonos o tabletas.
+- [QR de emparejamiento manual](#qr-de-emparejamiento-manual) cuando necesite completar el proceso manualmente.
 
 ### Usar botón «Abrir» o «Copiar»
 Botón `Abrir`: abre en el navegador del equipo actual el Verificador de Precios
