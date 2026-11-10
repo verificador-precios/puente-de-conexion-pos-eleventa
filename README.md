@@ -40,7 +40,7 @@ Complete estos pasos para instalar y conectar el sistema.
 3. Al finalizar, abra **eleventa puente de conexión POS**.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=7" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
+    <img src="https://res.cloudinary.com/verificador-precios/image/upload/v1794345664/eleventa-installer-1.png?v=7" width="450" alt="Instalador de eleventa puente de conexión POS en Windows">
 </p>
 
 ### 2. Permitir el acceso en Windows
@@ -50,7 +50,7 @@ Cuando Windows indique que **eleventa puente de conexión POS** desea comunicars
 Este permiso permite que Verificador de Precios se comunique con el sistema desde la red local.
 
 <p align="center">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=7" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
+    <img src="https://res.cloudinary.com/verificador-precios/image/upload/v1794345665/eleventa-firewall-1.png?v=7" width="420" alt="Permiso de firewall de Windows para eleventa puente de conexión POS">
 </p>
 
 ### 3. Confirmar la conexión con eleventa®
@@ -146,7 +146,7 @@ Si Google Chrome solicita permiso para acceder a la red local, concédalo. Este 
 
 | Situación | Qué hacer |
 | --- | --- |
-| Windows bloquea el instalador | En la advertencia, seleccione **Más información** >  **Ejecutar de todas formas**. <br> También puede hacer clic derecho en el archivo, seleccionar **Propiedades** > **Desbloquear** para ejecutar.<br><br><img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=7" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
+| Windows bloquea el instalador | En la advertencia, seleccione **Más información** >  **Ejecutar de todas formas**. <br> También puede hacer clic derecho en el archivo, seleccionar **Propiedades** > **Desbloquear** para ejecutar.<br><br><img src="https://res.cloudinary.com/verificador-precios/image/upload/v1794345665/eleventa-blue-alert-1.png?v=7" width="320" alt="Advertencia de Windows SmartScreen al abrir el instalador"> |
 | No hay conectividad con el punto de venta | Verifique los siguientes puntos:<ol><li>La <strong>Carpeta de instalación</strong> corresponde a eleventa®.</li><li>Existe un respaldo disponible.</li><li>Las credenciales de acceso son correctas.</li><li>Genere un respaldo desde eleventa® y vuelva a comprobar la conexión.</li></ol> |
 | El código QR no empareja Verificador de Precios con el punto de venta | Verifique los siguientes puntos:<ol><li>La URL ingresada en el <strong>Asistente de URL de acceso</strong> es correcta.</li><li>El sistema está conectado correctamente con el punto de venta.</li><li>Ambos equipos están en la misma red local.</li><li>El navegador tiene permiso para acceder a la red local.</li></ol> |
 | Verificador de Precios está emparejado, pero las búsquedas no muestran resultados | Confirme en su POS que el código de barras del producto sea exactamente igual al que está escaneando. |
